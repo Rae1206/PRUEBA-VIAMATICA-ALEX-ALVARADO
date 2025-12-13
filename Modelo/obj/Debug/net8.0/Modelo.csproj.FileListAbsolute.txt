@@ -12,3 +12,4 @@ C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.pdb
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.genruntimeconfig.cache
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\ref\Modelo.dll
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.sourcelink.json

@@ -36,3 +36,4 @@ C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Application
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Application\obj\Debug\net8.0\Services.csproj.Up2Date
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Application\obj\Debug\net8.0\Services.genruntimeconfig.cache
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Application\obj\Debug\net8.0\ref\Services.dll
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Application\obj\Debug\net8.0\Services.sourcelink.json

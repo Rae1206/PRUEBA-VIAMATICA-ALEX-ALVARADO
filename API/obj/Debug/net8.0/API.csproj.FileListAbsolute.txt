@@ -151,3 +151,4 @@ C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\API\obj\Deb
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\API\bin\Debug\net8.0\Services.dll
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\API\bin\Debug\net8.0\Services.pdb
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\API\obj\Debug\net8.0\API.sourcelink.json

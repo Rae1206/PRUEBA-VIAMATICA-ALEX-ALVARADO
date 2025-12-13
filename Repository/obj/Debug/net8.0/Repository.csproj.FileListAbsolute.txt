@@ -15,3 +15,4 @@ C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Repository\
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Repository\obj\Debug\net8.0\Repository.sourcelink.json
