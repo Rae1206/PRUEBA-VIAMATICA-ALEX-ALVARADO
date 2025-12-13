@@ -40,15 +40,36 @@ public class AuthApplication : IAuthApplication
                 return response;
             }
 
-            // Verificar contraseña encriptada
-            if (!BC.Verify(request.Password, user.Password))
+            bool isPasswordValid = false;
+            try
+            {
+                isPasswordValid = BC.Verify(request.Password, user.Password);
+            }
+            catch (Exception)
+            {
+                isPasswordValid = false;
+            }
+
+            // Lazy migration for plain text passwords
+            if (!isPasswordValid)
+            {
+                if (request.Password == user.Password)
+                {
+                    user.Password = BC.HashPassword(request.Password);
+                    user.UpdatedAt = DateTime.UtcNow;
+                    _context.Users.Update(user);
+                    await _context.SaveChangesAsync();
+                    isPasswordValid = true;
+                }
+            }
+
+            if (!isPasswordValid)
             {
                 response.IsSuccess = false;
                 response.Message = ReplyMessage.MESSAGE_TOKEN_ERROR;
                 return response;
             }
 
-            // Generar token JWT
             var token = GenerateToken(user);
 
             response.IsSuccess = true;
@@ -73,7 +94,6 @@ public class AuthApplication : IAuthApplication
         var response = new BaseResponse<UserResponseDto>();
         try
         {
-            
             var emailExists = await _context.Users
                 .AnyAsync(u => u.Email == request.Email && !u.Eliminado);
 
@@ -84,7 +104,6 @@ public class AuthApplication : IAuthApplication
                 return response;
             }
 
-           
             var hashedPassword = BC.HashPassword(request.Password);
 
             var user = new User
@@ -116,77 +135,6 @@ public class AuthApplication : IAuthApplication
         }
         return response;
     }
-
-    public async Task<BaseResponse<IEnumerable<UserResponseDto>>> GetAllUsersAsync()
-    {
-        var response = new BaseResponse<IEnumerable<UserResponseDto>>();
-        try
-        {
-            var users = await _context.Users
-                .Where(u => !u.Eliminado)
-                .Select(u => new UserResponseDto
-                {
-                    Id = u.Id,
-                    UserName = u.UserName,
-                    Email = u.Email,
-                    CreatedAt = u.CreatedAt
-                })
-                .ToListAsync();
-
-            if (users.Any())
-            {
-                response.IsSuccess = true;
-                response.Data = users;
-                response.TotalRecords = users.Count;
-                response.Message = ReplyMessage.MESSAGE_QUERY;
-            }
-            else
-            {
-                response.IsSuccess = false;
-                response.Message = ReplyMessage.MESSAGE_QUERY_EMPTY;
-            }
-        }
-        catch (Exception)
-        {
-            response.IsSuccess = false;
-            response.Message = ReplyMessage.MESSAGE_EXCEPTION;
-        }
-        return response;
-    }
-
-    public async Task<BaseResponse<bool>> DeleteUserAsync(int id)
-    {
-        var response = new BaseResponse<bool>();
-        try
-        {
-            var user = await _context.Users.FindAsync(id);
-
-            if (user is null)
-            {
-                response.IsSuccess = false;
-                response.Message = ReplyMessage.MESSAGE_QUERY_EMPTY;
-                return response;
-            }
-
-            // Soft Delete
-            user.Eliminado = true;
-            user.UpdatedAt = DateTime.UtcNow;
-
-            _context.Users.Update(user);
-            await _context.SaveChangesAsync();
-
-            response.IsSuccess = true;
-            response.Data = true;
-            response.Message = ReplyMessage.MESSAGE_DELETE;
-        }
-        catch (Exception)
-        {
-            response.IsSuccess = false;
-            response.Message = ReplyMessage.MESSAGE_EXCEPTION;
-        }
-        return response;
-    }
-
 
     private string GenerateToken(User user)
     {

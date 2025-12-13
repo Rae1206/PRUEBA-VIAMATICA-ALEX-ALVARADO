@@ -22,31 +22,10 @@ public class SalaCineController : ControllerBase
         return Ok(response);
     }
 
-    [HttpGet("ObtenerSalaCine/{id}")]
-    public async Task<IActionResult> ObtenerSalaCine(int id)
-    {
-        var response = await _salaCineApplication.GetByIdAsync(id);
-        return Ok(response);
-    }
-
     [HttpPost("CrearSalaCine")]
     public async Task<IActionResult> CrearSalaCine([FromBody] SalaCineRequestDto request)
     {
         var response = await _salaCineApplication.CreateAsync(request);
-        return Ok(response);
-    }
-
-    [HttpPut("ActualizarSalaCine/{id}")]
-    public async Task<IActionResult> ActualizarSalaCine(int id, [FromBody] SalaCineRequestDto request)
-    {
-        var response = await _salaCineApplication.UpdateAsync(id, request);
-        return Ok(response);
-    }
-
-    [HttpDelete("EliminarSalaCine/{id}")]
-    public async Task<IActionResult> EliminarSalaCine(int id)
-    {
-        var response = await _salaCineApplication.DeleteAsync(id);
         return Ok(response);
     }
 

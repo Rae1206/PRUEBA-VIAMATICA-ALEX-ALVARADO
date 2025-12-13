@@ -31,18 +31,4 @@ public class AuthController : ControllerBase
         var response = await _authApplication.RegisterAsync(request);
         return Ok(response);
     }
-
-    [HttpGet("ListarUsuarios")]
-    public async Task<IActionResult> ListarUsuarios()
-    {
-        var response = await _authApplication.GetAllUsersAsync();
-        return Ok(response);
-    }
-
-    [HttpDelete("EliminarUsuario/{id}")]
-    public async Task<IActionResult> EliminarUsuario(int id)
-    {
-        var response = await _authApplication.DeleteUserAsync(id);
-        return Ok(response);
-    }
 }

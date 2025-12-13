@@ -55,49 +55,11 @@ public class SalaCineApplication : ISalaCineApplication
         return response;
     }
 
-    public async Task<BaseResponse<SalaCineResponseDto>> GetByIdAsync(int id)
-    {
-        var response = new BaseResponse<SalaCineResponseDto>();
-        try
-        {
-            var sala = await _context.SalaCines
-                .Where(s => s.IdSala == id && !s.Eliminado)
-                .Select(s => new SalaCineResponseDto
-                {
-                    IdSala = s.IdSala,
-                    Nombre = s.Nombre,
-                    Eliminado = s.Eliminado,
-                    CreatedAt = s.CreatedAt,
-                    UpdatedAt = s.UpdatedAt
-                })
-                .FirstOrDefaultAsync();
-
-            if (sala is not null)
-            {
-                response.IsSuccess = true;
-                response.Data = sala;
-                response.Message = ReplyMessage.MESSAGE_QUERY;
-            }
-            else
-            {
-                response.IsSuccess = false;
-                response.Message = ReplyMessage.MESSAGE_QUERY_EMPTY;
-            }
-        }
-        catch (Exception)
-        {
-            response.IsSuccess = false;
-            response.Message = ReplyMessage.MESSAGE_EXCEPTION;
-        }
-        return response;
-    }
-
     public async Task<BaseResponse<bool>> CreateAsync(SalaCineRequestDto request)
     {
         var response = new BaseResponse<bool>();
         try
         {
-            // Verificar si ya existe una sala con el mismo nombre
             var exists = await _context.SalaCines
                 .AnyAsync(s => s.Nombre == request.Nombre && !s.Eliminado);
 
@@ -130,90 +92,11 @@ public class SalaCineApplication : ISalaCineApplication
         return response;
     }
 
-    public async Task<BaseResponse<bool>> UpdateAsync(int id, SalaCineRequestDto request)
-    {
-        var response = new BaseResponse<bool>();
-        try
-        {
-            var sala = await _context.SalaCines.FindAsync(id);
-
-            if (sala is null || sala.Eliminado)
-            {
-                response.IsSuccess = false;
-                response.Message = ReplyMessage.MESSAGE_QUERY_EMPTY;
-                return response;
-            }
-
-            // Verificar si el nuevo nombre ya existe en otra sala
-            var exists = await _context.SalaCines
-                .AnyAsync(s => s.Nombre == request.Nombre && s.IdSala != id && !s.Eliminado);
-
-            if (exists)
-            {
-                response.IsSuccess = false;
-                response.Message = ReplyMessage.MESSAGE_EXISTS;
-                return response;
-            }
-
-            sala.Nombre = request.Nombre;
-            sala.UpdatedAt = DateTime.UtcNow;
-
-            _context.SalaCines.Update(sala);
-            await _context.SaveChangesAsync();
-
-            response.IsSuccess = true;
-            response.Data = true;
-            response.Message = ReplyMessage.MESSAGE_UPDATE;
-        }
-        catch (Exception)
-        {
-            response.IsSuccess = false;
-            response.Message = ReplyMessage.MESSAGE_EXCEPTION;
-        }
-        return response;
-    }
-
-    public async Task<BaseResponse<bool>> DeleteAsync(int id)
-    {
-        var response = new BaseResponse<bool>();
-        try
-        {
-            var sala = await _context.SalaCines.FindAsync(id);
-
-            if (sala is null)
-            {
-                response.IsSuccess = false;
-                response.Message = ReplyMessage.MESSAGE_QUERY_EMPTY;
-                return response;
-            }
-
-            // Soft Delete
-            sala.Eliminado = true;
-            sala.UpdatedAt = DateTime.UtcNow;
-
-            _context.SalaCines.Update(sala);
-            await _context.SaveChangesAsync();
-
-            response.IsSuccess = true;
-            response.Data = true;
-            response.Message = ReplyMessage.MESSAGE_DELETE;
-        }
-        catch (Exception)
-        {
-            response.IsSuccess = false;
-            response.Message = ReplyMessage.MESSAGE_EXCEPTION;
-        }
-        return response;
-    }
-
-
-
     public async Task<BaseResponse<SalaDisponibilidadDto>> GetDisponibilidadByNombreAsync(string nombreSala)
     {
         var response = new BaseResponse<SalaDisponibilidadDto>();
         try
         {
-            // Ejecutar Stored Procedure
             var result = await _context.Database
                 .SqlQuery<SalaDisponibilidadDto>($"EXEC usp_disponibilidad_sala_cine_por_nombre {nombreSala}")
                 .ToListAsync();
