@@ -1,5 +1,5 @@
-﻿/* ============================
-   DATOS DE PRUEBA (SEED DATA)
+/* ============================
+   DATOS DE PRUEBA
    ============================ */
 USE [CineDb];
 GO
@@ -11,10 +11,11 @@ DELETE FROM dbo.sala_cine;
 DELETE FROM dbo.[users];
 GO
 
-/* 1) Usuario (login) */
+/*  HASH
+*/
 INSERT INTO dbo.[users] (user_name, email, [password], estado, eliminado, created_at, updated_at)
 VALUES
-('admin', 'admin@cine.local', 'Admin123*', 1, 0, SYSUTCDATETIME(), NULL);
+('admin', 'admin@cine.local', 'HASH_BCRYPT_PENDIENTE', 1, 0, SYSUTCDATETIME(), NULL);
 GO
 
 /* 2) Salas (3) */
@@ -33,8 +34,8 @@ VALUES
 ('The Matrix', 136, 0, SYSUTCDATETIME(), NULL);
 GO
 
-/* 4) Asignaciones pelicula_salacine (3)
-      - Nota: se insertan usando búsqueda de IDs por nombre para no depender de identity exacto.
+/* 4) Asignaciones pelicula_salacine 
+   
 */
 INSERT INTO dbo.pelicula_salacine
 (id_sala_cine, fecha_publicacion, fecha_fin, id_pelicula, eliminado, created_at, updated_at)
@@ -66,43 +67,7 @@ SELECT * FROM dbo.sala_cine;
 SELECT * FROM dbo.pelicula;
 SELECT * FROM dbo.pelicula_salacine;
 GO
-USE [CineDb];
-GO
 
-/* Agregar 2 películas adicionales a Sala 1 (para que tenga 3 en total) */
-
--- Asignar "Inception" a Sala 1
-INSERT INTO dbo.pelicula_salacine
-(id_sala_cine, fecha_publicacion, fecha_fin, id_pelicula, eliminado, created_at, updated_at)
-SELECT s.id_sala, CAST('2025-12-15' AS date), CAST('2026-01-15' AS date), p.id_pelicula, 0, SYSUTCDATETIME(), NULL
-FROM dbo.sala_cine s
-JOIN dbo.pelicula p ON p.nombre = 'Inception'
-WHERE s.nombre = 'Sala 1'
-  AND NOT EXISTS (
-      SELECT 1
-      FROM dbo.pelicula_salacine ps
-      WHERE ps.id_sala_cine = s.id_sala
-        AND ps.id_pelicula = p.id_pelicula
-        AND ps.eliminado = 0
-  );
-GO
-
--- Asignar "The Matrix" a Sala 1
-INSERT INTO dbo.pelicula_salacine
-(id_sala_cine, fecha_publicacion, fecha_fin, id_pelicula, eliminado, created_at, updated_at)
-SELECT s.id_sala, CAST('2025-12-20' AS date), NULL, p.id_pelicula, 0, SYSUTCDATETIME(), NULL
-FROM dbo.sala_cine s
-JOIN dbo.pelicula p ON p.nombre = 'The Matrix'
-WHERE s.nombre = 'Sala 1'
-  AND NOT EXISTS (
-      SELECT 1
-      FROM dbo.pelicula_salacine ps
-      WHERE ps.id_sala_cine = s.id_sala
-        AND ps.id_pelicula = p.id_pelicula
-        AND ps.eliminado = 0
-  );
-GO
 /* Probar SP (opcional) */
 EXEC dbo.usp_disponibilidad_sala_cine_por_nombre @nombre_sala = N'Sala 1';
-
 GO
