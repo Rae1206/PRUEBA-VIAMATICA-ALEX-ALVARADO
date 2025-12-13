@@ -1,0 +1,14 @@
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\bin\Debug\net8.0\Modelo.deps.json
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\bin\Debug\net8.0\Modelo.runtimeconfig.json
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\bin\Debug\net8.0\Modelo.dll
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\bin\Debug\net8.0\Modelo.pdb
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.csproj.AssemblyReference.cache
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfoInputs.cache
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfo.cs
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.dll
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\refint\Modelo.dll
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.pdb
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.genruntimeconfig.cache
+C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\ref\Modelo.dll
