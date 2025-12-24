@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\API\\API.csproj": {}
+    "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\API\\API.csproj": {
+    "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\API\\API.csproj",
+        "projectUniqueName": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\API\\API.csproj",
+        "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Alvarado Triana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\API\\obj\\",
+        "outputPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,21 +26,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Application\\Services.csproj": {
-                "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Application\\Services.csproj"
+              "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Application\\Services.csproj": {
+                "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Application\\Services.csproj"
               },
-              "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj"
+              "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj": {
+                "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj"
               },
-              "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Repository\\Repository.csproj"
+              "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Repository\\Repository.csproj": {
+                "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Repository\\Repository.csproj"
               }
             }
           }
@@ -55,7 +54,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -97,18 +96,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Application\\Services.csproj": {
+    "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Application\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Application\\Services.csproj",
+        "projectUniqueName": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Application\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Application\\Services.csproj",
+        "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Application\\Services.csproj",
         "packagesPath": "C:\\Users\\Alvarado Triana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Application\\obj\\",
+        "outputPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -123,18 +122,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj"
+              "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj": {
+                "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj"
               },
-              "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Repository\\Repository.csproj"
+              "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Repository\\Repository.csproj": {
+                "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Repository\\Repository.csproj"
               }
             }
           }
@@ -149,7 +147,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -192,18 +190,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj": {
+    "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj",
+        "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj",
         "packagesPath": "C:\\Users\\Alvarado Triana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\obj\\",
+        "outputPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -218,7 +216,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -237,7 +234,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -272,18 +269,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Repository\\Repository.csproj": {
+    "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Repository\\Repository.csproj",
+        "projectUniqueName": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Repository\\Repository.csproj",
+        "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Alvarado Triana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Repository\\obj\\",
+        "outputPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -298,15 +295,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj"
+              "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj": {
+                "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj"
               }
             }
           }
@@ -321,7 +317,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -358,7 +354,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

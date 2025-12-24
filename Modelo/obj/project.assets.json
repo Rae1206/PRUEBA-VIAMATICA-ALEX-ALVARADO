@@ -3974,11 +3974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj",
+      "projectUniqueName": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj",
       "projectName": "Modelo",
-      "projectPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\Modelo.csproj",
+      "projectPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\Modelo.csproj",
       "packagesPath": "C:\\Users\\Alvarado Triana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\Modelo\\obj\\",
+      "outputPath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\Modelo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3993,7 +3993,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4012,7 +4011,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4047,7 +4046,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

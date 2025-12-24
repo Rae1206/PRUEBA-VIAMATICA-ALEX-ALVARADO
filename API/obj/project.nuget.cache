@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LjodKXjDWPw=",
+  "dgSpecHash": "dzhpNxYtVMY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alvarado Triana\\source\\repos\\PRUEBA VIAMATICA ALEX ALVARADO\\API\\API.csproj",
+  "projectFilePath": "E:\\Alvarado Triana\\Documents\\AngularProjects\\PRUEBA-VIAMATICA-ALEX-ALVARADO\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alvarado Triana\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Alvarado Triana\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

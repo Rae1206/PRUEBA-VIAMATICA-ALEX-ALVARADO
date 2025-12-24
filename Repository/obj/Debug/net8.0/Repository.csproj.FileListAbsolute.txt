@@ -16,3 +16,21 @@ C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Repository\
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Repository\obj\Debug\net8.0\ref\Repository.dll
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\bin\Debug\net8.0\Repository.deps.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\bin\Debug\net8.0\Repository.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\bin\Debug\net8.0\Repository.pdb
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\bin\Debug\net8.0\Modelo.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\bin\Debug\net8.0\Modelo.pdb
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\refint\Repository.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.pdb
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Repository\obj\Debug\net8.0\ref\Repository.dll

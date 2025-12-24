@@ -37,3 +37,23 @@ C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Application
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Application\obj\Debug\net8.0\Services.genruntimeconfig.cache
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Application\obj\Debug\net8.0\ref\Services.dll
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Application\obj\Debug\net8.0\Services.sourcelink.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\bin\Debug\net8.0\Services.deps.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\bin\Debug\net8.0\Services.runtimeconfig.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\bin\Debug\net8.0\Services.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\bin\Debug\net8.0\Services.pdb
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\bin\Debug\net8.0\Modelo.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\bin\Debug\net8.0\Repository.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\bin\Debug\net8.0\Modelo.pdb
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\bin\Debug\net8.0\Repository.pdb
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.AssemblyInfo.cs
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.sourcelink.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.csproj.Up2Date
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\refint\Services.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.pdb
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\Services.genruntimeconfig.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Application\obj\Debug\net8.0\ref\Services.dll

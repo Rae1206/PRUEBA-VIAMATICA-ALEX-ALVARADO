@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRUEBA VIAMATICA ALEX ALVARADO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4979dafe445476e9cd4832529bdb838595dd271")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2e76c6dd09a963c45f43c9c5c871300a9d1772c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRUEBA VIAMATICA ALEX ALVARADO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRUEBA VIAMATICA ALEX ALVARADO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,3 +13,18 @@ C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.genruntimeconfig.cache
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\ref\Modelo.dll
 C:\Users\Alvarado Triana\source\repos\PRUEBA VIAMATICA ALEX ALVARADO\Modelo\obj\Debug\net8.0\Modelo.sourcelink.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\bin\Debug\net8.0\Modelo.deps.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\bin\Debug\net8.0\Modelo.runtimeconfig.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\bin\Debug\net8.0\Modelo.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\bin\Debug\net8.0\Modelo.pdb
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\Modelo.csproj.AssemblyReference.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfoInputs.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfo.cs
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\Modelo.csproj.CoreCompileInputs.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\Modelo.sourcelink.json
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\Modelo.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\refint\Modelo.dll
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\Modelo.pdb
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\Modelo.genruntimeconfig.cache
+E:\Alvarado Triana\Documents\AngularProjects\PRUEBA-VIAMATICA-ALEX-ALVARADO\Modelo\obj\Debug\net8.0\ref\Modelo.dll
