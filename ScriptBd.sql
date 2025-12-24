@@ -15,7 +15,40 @@ USE [CineDb];
 GO
 
 -- ============================================================
--- PARTE 2: CREAR TABLAS (si no existen)
+-- PARTE 2: ELIMINAR TABLAS EXISTENTES (para recrear con estructura correcta)
+-- ============================================================
+
+-- Eliminar en orden correcto por dependencias
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'dbo.pelicula_salacine') AND type = 'U')
+BEGIN
+    DROP TABLE [dbo].[pelicula_salacine];
+    PRINT 'Tabla pelicula_salacine eliminada.';
+END
+GO
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'dbo.pelicula') AND type = 'U')
+BEGIN
+    DROP TABLE [dbo].[pelicula];
+    PRINT 'Tabla pelicula eliminada.';
+END
+GO
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'dbo.sala_cine') AND type = 'U')
+BEGIN
+    DROP TABLE [dbo].[sala_cine];
+    PRINT 'Tabla sala_cine eliminada.';
+END
+GO
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'dbo.users') AND type = 'U')
+BEGIN
+    DROP TABLE [dbo].[users];
+    PRINT 'Tabla users eliminada.';
+END
+GO
+
+-- ============================================================
+-- PARTE 3: CREAR TABLAS
 -- ============================================================
 
 -- 2.1 Tabla: users
@@ -88,7 +121,7 @@ GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'dbo.pelicula_salacine') AND type = 'U')
 BEGIN
     CREATE TABLE [dbo].[pelicula_salacine] (
-        [id] INT IDENTITY(1,1) NOT NULL,
+        [id_pelicula_sala] INT IDENTITY(1,1) NOT NULL,
         [id_sala_cine] INT NOT NULL,
         [id_pelicula] INT NOT NULL,
         [fecha_publicacion] DATE NOT NULL,
@@ -96,7 +129,7 @@ BEGIN
         [eliminado] BIT NOT NULL DEFAULT(0),
         [created_at] DATETIME2(0) NOT NULL DEFAULT(SYSUTCDATETIME()),
         [updated_at] DATETIME2(0) NULL,
-        CONSTRAINT [PK_pelicula_salacine] PRIMARY KEY CLUSTERED ([id] ASC),
+        CONSTRAINT [PK_pelicula_salacine] PRIMARY KEY CLUSTERED ([id_pelicula_sala] ASC),
         CONSTRAINT [FK_pelicula_salacine_sala] FOREIGN KEY ([id_sala_cine]) REFERENCES [dbo].[sala_cine]([id_sala]),
         CONSTRAINT [FK_pelicula_salacine_pelicula] FOREIGN KEY ([id_pelicula]) REFERENCES [dbo].[pelicula]([id_pelicula])
     );
@@ -138,30 +171,11 @@ BEGIN
 END
 GO
 
-
-PRINT 'Limpiando datos existentes...';
-
-DELETE FROM dbo.pelicula_salacine;
-DELETE FROM dbo.pelicula;
-DELETE FROM dbo.sala_cine;
-DELETE FROM dbo.[users];
-GO
-
--- Reiniciar los identity seeds para tener IDs predecibles
-DBCC CHECKIDENT ('dbo.users', RESEED, 0);
-DBCC CHECKIDENT ('dbo.sala_cine', RESEED, 0);
-DBCC CHECKIDENT ('dbo.pelicula', RESEED, 0);
-DBCC CHECKIDENT ('dbo.pelicula_salacine', RESEED, 0);
-GO
-
-PRINT 'Datos limpiados exitosamente.';
-GO
-
 PRINT 'Insertando datos de prueba...';
 
 
 INSERT INTO dbo.[users] ([user_name], [email], [password], [eliminado], [created_at])
-VALUES ('Admin', 'admin@cine.com', '$2a$11$rK1Xk9vN1gP2dW3Y4eX5s.8qZ6L7mN8oP9.0a1B2c3D4e5F6g7H8i', 0, SYSUTCDATETIME());
+VALUES ('Admin', 'admin@cine.com', 'admin123', 0, SYSUTCDATETIME());
 
 PRINT 'Usuario Admin creado (admin@cine.com / admin123).';
 GO
